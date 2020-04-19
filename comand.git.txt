@@ -1,0 +1,10 @@
+
+git init инициализация гита
+git config --global user.email kupavtsev.ma@gmail.com установка глобальных настроек
+git config --global user.name "Mikhail Kupavtsev2" установка глобального имени  
+git add -A Добавить  все файлы в гит
+git status - проверка статуса
+git commit -a -m"Содержание коммита"
+git push -u origin master Выгрузить все файлы на сервер
+git remote add origin https://github.com/kupakup/second_project.git соединение с удаленным сервером
+git log проверка всех  комитов
